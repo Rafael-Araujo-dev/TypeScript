@@ -1,4 +1,3 @@
-//Criação da classe negociação
 export class Negociacao {
 
     private _data: Date;
