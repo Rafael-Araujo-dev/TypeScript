@@ -6,10 +6,9 @@ export class Negociacoes {
 
     adiciona(negociacao: Negociacao) {
         this.negociacoes.push(negociacao);
-        console.log("inserido push");
     }
 
-    lista(): Array<Negociacao> {
+    lista(): ReadonlyArray<Negociacao> {
         return this.negociacoes;
     }
 }
